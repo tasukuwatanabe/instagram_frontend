@@ -2,7 +2,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <div>Instagram</div>
+    <div className='text-3xl font-bold underline'>Instagram</div>
   );
 }
 
