@@ -8,9 +8,9 @@ import './App.css';
 const App = () => {
     return (
         <BrowserRouter>
-            <Header />
-            <div className='mx-auto max-w-7xl px-4 sm:px-6'>
-                <div className='py-9'>
+            <div className='flex min-h-screen'>
+                <Header />
+                <div className='py-10 grow'>
                     <Routes>
                         <Route index element={<TopPage />} />
                         <Route path='/signin' element={<Signin />} />
