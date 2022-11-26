@@ -2,11 +2,17 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div className='border-2 rounded py-5 px-7'>
-        <div className='mb-4'>
+    <div className='border-2 rounded-lg'>
+        <div className='p-3 flex items-center gap-3'>
+            <img src="/image/city3.jpg" className='w-8 h-8 rounded-full' alt="" />
+            <div className='font-medium'>title</div>
+        </div>
+        <div>
             <img src="/image/city1.jpg" alt="" />
         </div>
-        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <div className='p-3'>
+            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </div>
     </div>
   )
 }

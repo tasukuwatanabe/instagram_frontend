@@ -5,13 +5,13 @@ import FollowItem from '../components/FollowItem';
 const TopPage = () => {
     return (
         <div className='mx-auto flex gap-10 items-start justify-center'>
-            <div class='grid gap-y-8 max-w-screen-sm'>
+            <div class='grid gap-y-8 max-w-lg'>
                 <Card />
                 <Card />
                 <Card />
                 <Card />
             </div>
-            <div className='w-96 border-2 radius-2 py-9 px-6 flex flex-col gap-7'>
+            <div className='w-96 pt-4 flex flex-col gap-7'>
                 <FollowItem />
                 <FollowItem />
                 <FollowItem />

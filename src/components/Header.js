@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
 
 const Header = () => {
-  return (
-    <div className='w-72 border-r-2 py-6 px-10 fixed h-screen'>Header</div>
-  )
-}
+    return <div>
+        <div className='font-serif font-bold text-3xl mb-32'>Instagram</div>
+        <nav>
+            <ul>
+                <li>ホーム</li>
+            </ul>
+        </nav>
+    </div>;
+};
 
-export default Header
+export default Header;
