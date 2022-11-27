@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { AiOutlineHeart } from 'react-icons/ai';
 
 const Card = () => {
   return (
@@ -11,6 +12,9 @@ const Card = () => {
             <img src="/image/city1.jpg" alt="" />
         </div>
         <div className='p-3'>
+            <div>
+                <AiOutlineHeart className='text-2xl mb-2 hover:opacity-50 cursor-pointer duration-200' />
+            </div>
             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </div>
     </div>
