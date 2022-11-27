@@ -17,6 +17,10 @@ const Card = () => {
             </div>
             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </div>
+        <div className='p-3 border-t-2 flex justify-between items-center'>
+            <div className='text-gray-400'>コメントを追加...</div>
+            <div className='text-sm text-sky-500 font-semibold hover:opacity-50 cursor-pointer duration-200'>投稿する</div>
+        </div>
     </div>
   )
 }
